@@ -1,5 +1,92 @@
+body{
+background:#0d1117;
+color:white;
+font-family:'Segoe UI',sans-serif;
+}
 
-body{background:#0d1117;color:white;font-family:Segoe UI,sans-serif}
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0d1117,#161b22,#1f2937)}
-.profile-img{width:220px;height:220px;border-radius:50%;border:5px solid #00d4ff}
-.card{background:#161b22;color:white;border-radius:15px}
+.navbar{
+background:#161b22;
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+background:
+linear-gradient(
+135deg,
+#0d1117,
+#161b22,
+#1f2937);
+
+}
+
+.profile-img{
+
+width:250px;
+height:250px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:5px solid #00d4ff;
+
+box-shadow:
+0 0 20px #00d4ff,
+0 0 40px #00d4ff;
+
+}
+
+.section{
+padding:100px 0;
+}
+
+.skill-card,
+.project-card{
+
+background:
+rgba(255,255,255,.05);
+
+backdrop-filter:
+blur(10px);
+
+padding:25px;
+
+border-radius:20px;
+
+height:100%;
+
+transition:.4s;
+
+}
+
+.skill-card:hover,
+.project-card:hover{
+
+transform:
+translateY(-10px);
+
+box-shadow:
+0 0 25px #00d4ff;
+
+}
+
+.timeline-item{
+
+background:#161b22;
+
+padding:20px;
+
+margin-bottom:20px;
+
+border-left:
+4px solid #00d4ff;
+
+}

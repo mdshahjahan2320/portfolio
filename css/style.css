@@ -521,3 +521,70 @@ html {
 
     font-size:15px;
 }
+
+/*==========================
+    Certifications Section
+==========================*/
+
+.certifications-section{
+    padding:100px 0;
+}
+
+.certificate-card{
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:35px;
+    text-align:center;
+    height:100%;
+    transition:.4s ease;
+}
+
+.certificate-card:hover{
+    transform:translateY(-12px);
+    border-color:#00d4ff;
+    box-shadow:0 20px 40px rgba(0,212,255,.25);
+}
+
+.certificate-icon{
+    width:80px;
+    height:80px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#00d4ff,#6c63ff);
+    color:#fff;
+    font-size:32px;
+    transition:.4s;
+}
+
+.certificate-card:hover .certificate-icon{
+    transform:rotateY(180deg) scale(1.1);
+}
+
+.certificate-card h4{
+    color:#fff;
+    font-size:1.3rem;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.certificate-card p{
+    color:#cbd5e1;
+    line-height:1.8;
+    font-size:15px;
+}
+
+.certificate-card .btn{
+    border-radius:30px;
+    padding:8px 20px;
+    transition:.3s;
+}
+
+.certificate-card .btn:hover{
+    background:#00d4ff;
+    color:#000;
+}

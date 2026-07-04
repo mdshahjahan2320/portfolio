@@ -591,3 +591,104 @@ html {
     background:#00d4ff;
     color:#000;
 }
+
+
+
+/*==========================
+        Skills
+==========================*/
+
+.skill-card{
+
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:30px;
+
+    height:100%;
+
+    transition:.4s;
+}
+
+.skill-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#00d4ff;
+
+    box-shadow:
+    0 20px 40px rgba(0,212,255,.20);
+}
+
+.skill-card h4{
+
+    color:#fff;
+
+    margin-bottom:25px;
+
+    font-size:1.3rem;
+
+    font-weight:600;
+}
+
+.skill-card h4 i{
+
+    color:#00d4ff;
+
+    margin-right:10px;
+}
+
+/* Beautiful Buttons */
+
+.skill-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+}
+
+.skill-tags span{
+
+    padding:10px 22px;
+
+    border-radius:50px;
+
+    background:linear-gradient(
+    135deg,
+    #6c63ff,
+    #00d4ff);
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:
+    0 8px 18px rgba(0,212,255,.25);
+}
+
+.skill-tags span:hover{
+
+    transform:
+    translateY(-4px)
+    scale(1.05);
+
+    background:linear-gradient(
+    135deg,
+    #00d4ff,
+    #7c4dff);
+
+    box-shadow:
+    0 12px 25px rgba(0,212,255,.45);
+}
